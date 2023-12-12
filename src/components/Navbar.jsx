@@ -19,7 +19,7 @@ const Navbar = () => {
         </button>
   
         {/* Sidebar */}
-        <div className={`bg-blue-500 p-4 w-64 ${isOpen ? 'block' : 'hidden'} sm:block`}>
+        <div className={`bg-stone-700 p-4 w-64 ${isOpen ? 'block' : 'hidden'} sm:block`}>
           <div className="flex items-center justify-center mb-10 mt-12">
             <img
               className="w-36 h-36 rounded-full border-2 border-white"
@@ -28,7 +28,7 @@ const Navbar = () => {
             />
           </div>
           <nav className="sm:block items-center">
-            <ul className='flex flex-col gap-10 bg-slate-500'>
+            <ul className='flex flex-col gap-10 '>
               <li className="">
                 <Link to="/" className="text-white hover:text-gray-200 hover:underline text-3xl" onClick={toggleMenu}>
                   Home
