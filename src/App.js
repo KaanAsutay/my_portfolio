@@ -9,14 +9,14 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex">
       <Navbar />
      <Routes>
-     <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/skills" element={<Skills />} />
      </Routes>
     </div>
   );
