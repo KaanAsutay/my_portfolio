@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex items-center justify-center mb-10 mt-12">
             <img
               className="w-36 h-36 rounded-full border-2 border-white"
-              src="https://placekitten.com/200/200"  // Profil fotoğrafınızın URL'sini ekleyin
+              src=""  // Profil fotoğrafınızın URL'sini ekleyin
               alt="Profil"
             />
           </div>
