@@ -1,20 +1,28 @@
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
 import React from "react";
+import Type from "./Type";
 
 const Home = () => {
 
   return (
-    <div style={{ backgroundImage: `url('./images/background.jpg')` }} className="w-full bg-cover bg-center flex flex-col items-center justify-center h-screen bg-gray-200 text-gray-800 p-10 " >
-      <h1 className="text-5xl mb-2 text-center">Hi, I am Tolga Kaan Asutay</h1>
+    <div style={{ backgroundImage: `url('./images/black-background.jpeg')` }} className="w-full bg-cover bg-center flex flex-col items-center justify-center h-screen bg-gray-200 text-gray-800 p-10 " >
+    <h1 style={{ paddingBottom: 15 }} md={7} className="text-5xl text-slate-100">
+    Hi There!{" "}
+    <span className="wave" role="img" aria-labelledby="wave">
+      👋🏻
+    </span>
+    </h1>
+
+    <h1 className="heading-name text-5xl text-slate-100">
+          I'm
+      <strong className="main-name text-violet-800"> Tolga Kaan Asutay</strong>
+    </h1>
+
       <p className="text-xl mb-10 text-center">
-        I am a full-stack web developer.
-        <br />
-        I have experience in developing
-        websites, web applications, mobile games
-        <br />
-        (Android & iOS), and Flutter
-        mobile applications. I provide clean code.
+      <div className="text-5xl text-violet-800" style={{ padding: 40, textAlign: "left" }}>
+        <strong> <Type /> </strong>  
+      </div>
       </p>
       <div className="flex space-x-6 text-5xl">
         <Link to="https://github.com/KaanAsutay" target="_blank" className="text-stone-600 hover:text-zinc-950">
@@ -23,7 +31,7 @@ const Home = () => {
         <Link to="https://www.linkedin.com/in/tolga-kaan-asutay/" target="_blank" className="text-stone-600  hover:text-blue-700">
           <FaLinkedin className="inline-block" />
         </Link>
-        <Link to="mailto:kaanasutay10@gmail.com" target="_blank" className="text-stone-600   hover:text-blue-700">
+        <Link to="mailto:kaanasutay10@gmail.com" target="_blank" className="text-stone-600   hover:text-orange-600">
           <FaGoogle className="inline-block" />
         </Link>
       </div>
