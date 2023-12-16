@@ -2,6 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
+    <div style={{ backgroundImage: `url('./images/skillsbg.jpeg')` }} className="w-full bg-cover bg-center flex flex-col items-center justify-center h-screen bg-gray-200 text-gray-800 p-10 " >
     <div className='w-full'>
     <div className='text-2xl'>Full-Stack Developer</div>
     <div className='flex justify-evenly'>
@@ -38,6 +39,7 @@ const Skills = () => {
       voluptatibus tenetur nemo alias eveniet cum 
       ratione doloribus vitae est asperiores assumenda 
       ut placeat reiciendis quasi, unde dolorum?
+    </div>
     </div>
     </div>
   )
