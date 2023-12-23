@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className={`bg-gradient-to-b from-zinc-500 to-violet-500  p-4 w-64 ${isOpen ? 'block' : 'hidden'} sm:block`}>
           <div className="flex items-center justify-center mb-10 mt-12">
             <img
-              className="w-36 h-36 rounded-full border-2 border-white"
+              className="w-36 h-36 rounded-full border-2 border-black"
               src="./images/avatar.jpeg"  // Profil fotoğrafınızın URL'sini ekleyin
               alt="Profil"
             />

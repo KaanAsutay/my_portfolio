@@ -29,12 +29,8 @@ const Skills = () => {
     >
       <div className="container flex justify-evenly  ">
         <div className="frontend  ">
-          <div className="foto-fr flex justify-center">
-            <img
-              src="./images/a.png"
-              alt=""
-              className="w-72 h-auto  animate__animated animate__rotateInDownLeft shadow-xl border border-yellow-600"
-            />
+          <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:h-24 after:bg-violet-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20 before:bg-violet-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 before:w-12 before:h-12  hover:rotate-12 flex justify-center items-center h-56 w-80  bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
+          <span class="text-slate-400 text-6xl font-bold">FRONTEND</span>
           </div>
           <div className="fr flex justify-between">
             {" "}
@@ -45,7 +41,7 @@ const Skills = () => {
                   style={{ color: "#E34F26" }}
                   className="mr-2  "
                 />
-                <span className="mr-2 text-xl">HTML</span>
+                <span className="mr-2 text-xl"></span>
               </div>
               <div className="css-icon flex items-center mt-4  ">
                 <SiCss3
@@ -53,7 +49,7 @@ const Skills = () => {
                   style={{ color: "#1572B6" }}
                   className="mr-2"
                 />
-                <span className="mr-2 text-xl   ">CSS</span>
+                <span className="mr-2 text-xl "></span>
               </div>
               <div className="flex items-center mt-4  ">
                 <BsBootstrapFill
@@ -61,7 +57,7 @@ const Skills = () => {
                   style={{ color: "#8E13FD" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">Bootstrap</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4">
                 <FaSass
@@ -69,7 +65,7 @@ const Skills = () => {
                   style={{ color: "#FF00FF" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">Sass</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
             </div>
             <div className="fr2 mt-10">
@@ -79,7 +75,7 @@ const Skills = () => {
                   style={{ color: "#0865A6" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">Jquery</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4  ">
                 <SiTypescript
@@ -87,7 +83,7 @@ const Skills = () => {
                   style={{ color: "#2D79C7" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">TypeScript</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4  ">
                 <FaReact
@@ -95,7 +91,7 @@ const Skills = () => {
                   style={{ color: "#00FFFF" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">React</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4  ">
                 <SiStyledcomponents
@@ -103,7 +99,7 @@ const Skills = () => {
                   style={{ color: "#E7927B" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">Styled-Components</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
             </div>
             <div className="fr3 mt-10">
@@ -113,7 +109,7 @@ const Skills = () => {
                   style={{ color: "#007FFF" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">Material UI</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4  ">
                 <SiAxios
@@ -121,7 +117,7 @@ const Skills = () => {
                   style={{ color: "#000000" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl   ">Axios</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4  ">
                 <SiTailwindcss
@@ -129,7 +125,7 @@ const Skills = () => {
                   style={{ color: "#36B7F0" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">Tailwind</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4  ">
                 <SiNextdotjs
@@ -137,26 +133,16 @@ const Skills = () => {
                   style={{ color: "#000000" }}
                   className="mr-2"
                 />
-                <span className="mr-2 text-xl">Next.Js</span>
+                <span className="mr-2 text-xl"></span>
               </div>
             </div>
           </div>
         </div>
-        <div>
-          <img
-            src="./images/c.png"
-            alt="DDD"
-            className="w-96  items-center h-auto  animate__animated animate__fadeInDown shadow-xl border border-slate-950"
-          />
-        </div>{" "}
+        
         {/* Line */}
         <div className="backend ">
-          <div className="img-back">
-            <img
-              src="./images/b.png"
-              alt=""
-              className="w-72 h-auto animate__animated animate__rotateInDownRight  shadow-xl border border-violet-800"
-            />
+          <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-500 after:absolute after:w-24 after:h-24 after:bg-violet-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20 before:bg-violet-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 before:w-12 before:h-12  hover:rotate-12 flex justify-center items-center h-56 w-80  bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
+          <span class="text-slate-400 text-6xl font-bold">BACKEND</span>
           </div>
           <div className="bck flex justify-between">
             <div className="bck1 mt-10">
@@ -167,7 +153,7 @@ const Skills = () => {
                   style={{ color: "#68A063" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">Node.js</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4">
                 <SiExpress
@@ -175,7 +161,7 @@ const Skills = () => {
                   style={{ color: "#E9BE0F" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">Express.js</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4">
                 <AiOutlineConsoleSql
@@ -183,7 +169,7 @@ const Skills = () => {
                   style={{ color: "#D47131" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">SQL</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4">
                 <DiSqllite
@@ -191,7 +177,7 @@ const Skills = () => {
                   style={{ color: "#1F7C8B" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">Sqlite</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
             </div>
             <div className="bck2 mt-10">
@@ -202,7 +188,7 @@ const Skills = () => {
                   style={{ color: "#305D8D" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">PostgreSQL</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4">
                 <SiMysql
@@ -210,7 +196,7 @@ const Skills = () => {
                   style={{ color: "#E58E01" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">MySQL</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4">
                 <SiMongodb
@@ -218,7 +204,7 @@ const Skills = () => {
                   style={{ color: "#4DA53F" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">MongoDB</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
               <div className="flex items-center mt-4">
                 <DiDjango
@@ -226,7 +212,7 @@ const Skills = () => {
                   style={{ color: "#003A2B" }}
                   className="mr-2"
                 />
-                <span  className="mr-2 text-xl">Django</span>
+                <span  className="mr-2 text-xl"></span>
               </div>
             </div>
           </div>
